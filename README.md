@@ -6,14 +6,14 @@ A self-hosted discord bot that lets you start, stop, and monitor your Minecraft 
 
 ## ✨ Features
 
-- **Slash Commands & Prefix Commands** — control the server from any Discord channel
-- **Live Console Feed** — server output streams into a designated Discord channel in real time
-- **Idle Auto-Shutdown** — automatically stops the server when no players are online, with configurable warnings at 50%, 25%, 10%, and 1 minute remaining
-- **Online/Offline Announcements** — posts to a Discord channel when the server comes up or goes down
-- **System Tray Icon** — color-coded indicator (green = online, red = offline) with a quit and console-toggle option
-- **Terminal CLI** — type commands directly into the server console from your terminal, or switch views between bot logs and server output
-- **Graceful Shutdown** — sends `/stop` to the Minecraft server on SIGINT/SIGTERM or tray quit to prevent data loss
-- **Fully Customizable Messages** — every Discord-facing string lives in `messages.json`; no code edits needed
+- **Slash Commands & Prefix Commands** — control the server from any Discord channel.
+- **Live Console Feed** — server output streams into a designated Discord channel in real time.
+- **Idle Auto-Shutdown** — automatically stops the server when no players are online, with configurable warnings at 50%, 25%, 10%, and 1 minute remaining.
+- **Online/Offline Announcements** — posts to a Discord channel when the server comes up or goes down.
+- **System Tray Icon** — color-coded indicator (green = online, red = offline) with a quit and console-toggle option.
+- **Terminal CLI** — type commands directly into the server console from your terminal, or switch views between bot logs and server output.
+- **Graceful Shutdown** — sends `/stop` to the Minecraft server on SIGINT/SIGTERM or tray quit to prevent data loss.
+- **Fully Customizable Messages** — every Discord-facing string lives in `messages.json`; no code edits needed.
 
 ---
 
