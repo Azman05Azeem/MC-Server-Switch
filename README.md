@@ -1,6 +1,6 @@
 # 🎮 Minecraft Discord Bot
 
-A self-hosted Discord bot that lets you start, stop, and monitor your Minecraft Java server directly from Discord — with idle auto-shutdown, live console streaming, a system tray icon, and a terminal CLI.
+A self-hosted discord bot that lets you start, stop, and monitor your Minecraft Java server directly from Discord — with idle auto-shutdown, live console streaming, a system tray icon, and a terminal CLI.
 
 ---
 
