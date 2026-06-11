@@ -1,0 +1,29 @@
+{
+  "_comment": "All Discord-facing bot messages. Edit any value freely. Keys starting with _ are ignored by the bot.",
+  "_placeholders": {
+    "server_start_failed": "{error}",
+    "status_online": "{online}, {maximum}, {players}, {latency}, {idle}, {timeout}",
+    "cmd_sent": "{command}",
+    "idle_warning": "{time_left}, {plural}",
+    "server_online_announce": "{ip}"
+  },
+  "server_already_running": "**Server is already running.** 🟢\n> Use `/status` to check the current player count and idle timer.",
+  "server_already_starting": "**Server is already starting up.** ⚙️\n> Please wait — use `/status` to check progress once it's online.",
+  "server_starting": "**Starting server…** ⚙️\n> Console output will begin appearing in this channel shortly.\n> Use `/status` once it's online to confirm.",
+  "server_start_failed": "**Failed to start the server.** ❌\n> ```{error}```\n> Check your `config.json` paths and ensure the start script is accessible.",
+  "server_shutting_down_wait": "**Server is finishing its shutdown.** ⏳\n> Please wait a moment, then try `/run` again.",
+  "server_not_running": "**No active server to stop.** ⚪\n> Use `/run` to start one.",
+  "server_stop_sent": "**Shutdown command sent.** ⏹️\n> The server is saving and closing. This may take a moment.",
+  "server_stop_failed": "**Could not reach the server process.** ⚠️\n> It may have already stopped or crashed. Check the console channel for details.",
+  "status_offline": "**Server Status** — Offline 🔴\n> No active instance is running. Use `/run` to start the server.",
+  "status_online": "**Server Status** — Online 🟢\n> 👥  **{online} / {maximum}** players online — {players}\n> 📶  Latency: `{latency} ms`\n> ⏱️  Idle timer: `{idle} / {timeout} min`",
+  "status_starting": "**Server Status** — Starting 🟡\n> The process is running but the server isn't accepting connections yet.\n> Try again in a moment.",
+  "cmd_sent": "**Command sent to console.** ✅\n> ```{command}```",
+  "cmd_not_sent": "**Command not sent.** ❌\n> The server is not currently running. Use `/run` to start it first.",
+  "idle_warning": "**Idle Warning** ⏱️\n> No players have been online for a while.\n> The server will automatically shut down in **{time_left} minute{plural}** to save resources.\n> Join now to keep it running.",
+  "player_joined": "**Player connected.** 🟢\n> The idle shutdown timer has been reset.",
+  "auto_shutdown": "**Auto-Shutdown Triggered** 🔴\n> The server has been idle too long with no players online.\n> Shutting down now to conserve resources. Use `/run` to restart when needed.",
+  "server_online_announce": "**Server is Online** 🟢\n> The Minecraft server has started and is ready for players.\n> 🔗  Connect at `{ip}`",
+  "server_offline_announce": "**Server is Offline** 🔴\n> The server has shut down. Use `/run` whenever you want to play again.",
+  "no_permission": "**Access Denied** 🚫\n> This command requires **Administrator** permissions."
+}
