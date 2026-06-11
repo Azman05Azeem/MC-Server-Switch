@@ -1,15 +1,15 @@
 # 🎮 Minecraft Discord Bot
 
-A self-hosted Discord-bot that lets you start, stop, and monitor your Minecraft Java server directly from Discord — with idle auto-shutdown, live console streaming, a system tray icon, and a terminal CLI.
+A self-hosted Discord bot that lets you start, stop, and monitor your Minecraft Java server directly from Discord — with idle auto-shutdown, live console streaming, a system tray icon, and a terminal CLI.
 
 ---
 
 ## ✨ Features
 
-- **Slash Commands & Prefix Commands** — Control the Server from any Discord channel
-- **Live Console Feed** — Server output streams into a designated Discord channel in real time
-- **Idle Auto-Shutdown** — Automatically stops the server when no players are online, with configurable warnings at 50%, 25%, 10%, and 1 minute remaining
-- **Online/Offline Announcements** — Posts to a Discord channel when the server comes up or goes down
+- **Slash Commands & Prefix Commands** — control the server from any Discord channel
+- **Live Console Feed** — server output streams into a designated Discord channel in real time
+- **Idle Auto-Shutdown** — automatically stops the server when no players are online, with configurable warnings at 50%, 25%, 10%, and 1 minute remaining
+- **Online/Offline Announcements** — posts to a Discord channel when the server comes up or goes down
 - **System Tray Icon** — color-coded indicator (green = online, red = offline) with a quit and console-toggle option
 - **Terminal CLI** — type commands directly into the server console from your terminal, or switch views between bot logs and server output
 - **Graceful Shutdown** — sends `/stop` to the Minecraft server on SIGINT/SIGTERM or tray quit to prevent data loss
@@ -38,8 +38,8 @@ Copy `config.json` and fill in your values:
 ```json
 {
   "TOKEN": "your-discord-bot-token",
-  "START_SCRIPT": "Start.Bat Location",
-  "SERVER_DIR": "Server",
+  "START_SCRIPT": "D:\\Server\\start.bat",
+  "SERVER_DIR": "D:\\Server",
   "SERVER_IP": "127.0.0.1",
   "SERVER_PORT": 25565,
   "MY_SERVER_ID": 123456789012345678,
@@ -84,9 +84,9 @@ Make sure `config.json` and `messages.json` are in the same directory as the scr
 | Command | Permission | Description |
 |---|---|---|
 | `/run` | Everyone | Starts the Minecraft server |
-| `/stop` | Admin only | Stops the Minecraft server |
+| `/stop` | Admin Only | Stops the Minecraft server |
 | `/status` | Everyone | Shows player count, latency, and idle timer |
-| `/cmd <command>` | Admin only | Sends a raw command to the server console |
+| `/cmd <command>` | Admin Only | Sends a raw command to the server console |
 
 ### Prefix Commands (`.`)
 
@@ -95,9 +95,9 @@ The same actions are also available as prefix commands for legacy use:
 | Command | Permission |
 |---|---|
 | `.run_server` | Everyone |
-| `.stop_server` | Admin only |
+| `.stop_server` | Admin Only |
 | `.server_status` | Everyone |
-| `.server_cmd <command>` | Admin only |
+| `.server_cmd <command>` | Admin Only |
 
 ---
 
