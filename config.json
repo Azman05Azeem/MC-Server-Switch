@@ -1,0 +1,12 @@
+{
+  "TOKEN": "BOT_TOKEN",
+  "START_SCRIPT": "START.BAT_SCRIPT_LOCATION: NOTE: Use '//' in JSON files i.e. D://Server instead of D:/Server",
+  "SERVER_DIR": "SERVER_FOLDER_LOCATION",
+  "SERVER_IP": "127.0.0.1",
+  "SERVER_PORT": 25565,
+  "MY_SERVER_ID": Discord_Server_ID,
+  "CONSOLE_CHANNEL_ID": Console_Channel_ID,
+  "IDLE_TIMEOUT": 5,
+  "ENABLE_CONSOLE_LOGS": true,
+  "PUBLIC_IP": "SERVER_IP (YOU NEED TO PORT_FORWARD YOUR SERVER)"
+}
