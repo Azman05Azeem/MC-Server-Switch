@@ -34,19 +34,20 @@ pip install discord.py mcstatus pystray Pillow colorama
 ## ⚙️ Configuration
 
 Copy `config.json` and fill in your values:
+**Note:** Make sure to correctly adjust the settings marked as [CHANGE].
 
 ```json
 {
   "TOKEN": "your-discord-bot-token",
-  "START_SCRIPT": "D:\\Server\\start.bat",
-  "SERVER_DIR": "D:\\Server",
+  "START_SCRIPT": "D:\\Server\\start.bat [CHANGE}",
+  "SERVER_DIR": "D:\\Server [CHANGE]",
   "SERVER_IP": "127.0.0.1",
   "SERVER_PORT": 25565,
-  "MY_SERVER_ID": 123456789012345678,
-  "CONSOLE_CHANNEL_ID": 123456789012345678,
+  "MY_SERVER_ID": 123456789012345678 [CHANGE],
+  "CONSOLE_CHANNEL_ID": 123456789012345678 [CHANGE,
   "IDLE_TIMEOUT": 30,
   "ENABLE_CONSOLE_LOGS": true,
-  "PUBLIC_IP": "your.domain.or.ip"
+  "PUBLIC_IP": "your.domain.or.ip [CHANGE]"
 }
 ```
 
